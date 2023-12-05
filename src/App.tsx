@@ -4,9 +4,13 @@ import Container from './layouts/container/Container';
 import styles from './App.module.css';
 
 function App() {
+  const screenWidth = window.innerWidth;
+  const screenHeight = window.innerHeight;
   return (
     <div className={styles.header}>
       <Container>
+        <p>{screenWidth}</p>
+        <p>{screenHeight}</p>
         <a href="https://www.instagram.com/mike4soul" target="_blank" rel="noreferrer">
           <Icon type="instagram" color="#fff" width={30} height={30}></Icon>
         </a>
