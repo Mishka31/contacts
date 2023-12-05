@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { typeIcons } from '../assets/icons/Icon';
 
 export interface IIconsProps {
@@ -9,4 +10,8 @@ export interface IIconsProps {
   textColor?: string;
   onClick?: any;
   isFilled?: boolean;
+}
+
+export interface ContainerProps {
+  children: ReactNode;
 }

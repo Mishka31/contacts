@@ -1,20 +1,28 @@
 import React from 'react';
-import './App.css';
 import { Icon } from './assets/icons/Icon';
+import Container from './layouts/container/Container';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Icon type="pencil"></Icon>
-        <Icon type="lock" width={20}></Icon>
-        <Icon type="instagram" color="#fff" width={30} height={30}></Icon>
-        <Icon type="youtube" color="#fff" width={30} height={30}></Icon>
-        <Icon type="mail" color="#fff" width={30} height={30}></Icon>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+    <div className={styles.header}>
+      <Container>
+        <a href="https://www.instagram.com/mike4soul" target="_blank" rel="noreferrer">
+          <Icon type="instagram" color="#fff" width={30} height={30}></Icon>
+        </a>
+        <a href="https://www.youtube.com/@mishakrasnonos6333" target="_blank" rel="noreferrer">
+          <Icon type="youtube" color="#fff" width={30} height={30}></Icon>
+        </a>
+        <a href="mailto:mikhailkrasnonos@gmail.com" target="_blank" rel="noreferrer">
+          <Icon type="mail" color="#fff" width={30} height={30}></Icon>
+        </a>
+        <a href="https://www.facebook.com/misha.krasnonos" target="_blank" rel="noreferrer">
+          <Icon type="faceBook" color="#fff" width={30} height={30}></Icon>
+        </a>
+        <a href="https://www.tiktok.com/@flyingmying" target="_blank" rel="noreferrer">
+          <Icon type="tikTok" color="#fff" width={30} height={30}></Icon>
+        </a>
+      </Container>
     </div>
   );
 }
