@@ -1,12 +1,14 @@
 .container {
   display: flex;
   max-width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 40px);
   margin: 0 auto;
   padding: 20px;
-  background-color: #282c34;
+  /* background-color: #000c25; */
+  /* opacity: 0.8; */
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
 @media (min-width: 768px) {

@@ -9,27 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-html,
-body {
-  height: 100%;
-  overflow: auto;
-}
-
-/* Разрешает полноэкранный режим в браузере */
-/* body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  z-index: -1;
-  pointer-events: none;
-} */
-
-/* Скрывает элементы управления браузером, если они всё равно видны */
-/* ::-webkit-scrollbar {
-  display: none;
-} */
