@@ -5,3 +5,4 @@ export { youtube } from './components/youtube';
 export { mail } from './components/mail';
 export { faceBook } from './components/faceBook';
 export { tikTok } from './components/tikTok';
+export { telegram } from './components/telegram';

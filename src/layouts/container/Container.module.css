@@ -1,12 +1,17 @@
 .container {
+  display: flex;
   max-width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 20px;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 750px;
+    max-width: 720px;
     padding: 30px;
   }
 }
