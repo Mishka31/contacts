@@ -11,7 +11,8 @@ export type typeIcons =
   | 'mail'
   | 'faceBook'
   | 'tikTok'
-  | 'telegram';
+  | 'telegram'
+  | 'gitHub';
 
 export const Icon: FC<IIconsProps> = ({ type, width, height, color }) => {
   const svgItems = [
@@ -23,6 +24,7 @@ export const Icon: FC<IIconsProps> = ({ type, width, height, color }) => {
     { name: 'faceBook', component: () => allIcons.faceBook({ width, height, color }) },
     { name: 'tikTok', component: () => allIcons.tikTok({ width, height, color }) },
     { name: 'telegram', component: () => allIcons.telegram({ width, height, color }) },
+    { name: 'gitHub', component: () => allIcons.gitHub({ width, height, color }) },
   ];
   return <>{svgItems.filter((x) => x.name === type)[0]?.component()}</>;
 };

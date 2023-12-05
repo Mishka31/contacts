@@ -53,6 +53,14 @@ const SocialLinks = () => {
       >
         <Icon type="telegram" color="#fff" width={30} height={30}></Icon>
       </a>
+      <a
+        href="https://github.com/Mishka31"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="@Misha4soul gitHub"
+      >
+        <Icon type="gitHub" color="#fff" width={28} height={28}></Icon>
+      </a>
     </div>
   );
 };
