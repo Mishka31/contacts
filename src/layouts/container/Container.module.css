@@ -1,7 +1,6 @@
 .container {
   display: flex;
   max-width: 100%;
-  /* height: max-content; */
   margin: 0 auto;
   padding: 20px;
   flex-direction: column;
