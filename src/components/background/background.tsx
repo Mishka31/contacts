@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './background.module.css';
+import noise from '../../assets/images/noise.svg';
 
 const Background = () => {
   return (

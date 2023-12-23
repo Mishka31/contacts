@@ -1,14 +1,11 @@
 import React from 'react';
 import s from './avatarBlock.module.css';
+import avatar from '../../assets/images/avatar.jpg';
 
 const AvatarBlock = () => {
   return (
     <div className={s.container}>
-      <img
-        className={s.img}
-        src="https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-6/321751407_1487309588420540_8675258260965107263_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=XVlRE0m_aSoAX96vmgO&_nc_ht=scontent-iev1-1.xx&oh=00_AfBWtam4BQqP9367QLjGA7_rznQXRQTNrrvRYAX67MzSKA&oe=65747F4A"
-        alt=""
-      />
+      <img className={s.img} src={avatar} alt="" />
       <h1 className={s.nick}>@mike4soul</h1>
 
       <h2 className={s.description}>

@@ -10,6 +10,9 @@
   width: 96px;
   height: 96px;
   margin-bottom: 16px;
+  object-fit: cover;
+  object-position: center -9px;
+  filter: brightness(3);
 }
 .nick {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
